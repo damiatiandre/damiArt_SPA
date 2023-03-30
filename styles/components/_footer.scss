@@ -1,0 +1,21 @@
+@import './variaveis';
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $cor-primaria;
+    color: $cor-terciaria;
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        padding-top: 8px;
+    }
+
+    .logo-2 {
+        width: 35px;
+        height: 25px;
+        padding-top: 1px;
+    }
+}

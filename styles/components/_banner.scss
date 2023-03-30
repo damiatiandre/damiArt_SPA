@@ -1,0 +1,39 @@
+@import './variaveis';
+
+.banner {
+    background: url(../../imagens/banner.jpeg) 27% no-repeat;
+    min-height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+
+    .logo-principal {
+        width: 190px;
+        height: 150px;
+        align-items: center;
+        padding: 0 50px;
+        margin: 0 50px;
+    }
+
+    .inner-banner {
+        padding: 1.5rem;
+        background-color: $cor-terciaria;
+        opacity: 0.9;
+        border-radius: 45px;
+
+        h1 {
+            font-size: $tamanho-do-texto;
+            color: $cor-primaria;
+            padding-bottom: 10px;
+            margin: 0 50px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: $tamanho-do-texto / 2;
+            margin: 0 50px;
+        }
+    }
+}
